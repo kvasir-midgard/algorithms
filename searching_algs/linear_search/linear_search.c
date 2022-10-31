@@ -8,7 +8,7 @@ int linearSearch(int arr[], int len, int key) {
 
 int main(void) {
     int arr[] = {1, 2, 3, 4, 5, 6, 7};
-    int len = sizeof(arr) / sizeof(arr[0]);
+    int len = sizeof(arr) / sizeof(arr[0]) - 1;
     int key = 5;
 
     int test1 = linearSearch(arr, len, key);
